@@ -31,8 +31,7 @@ def change_user_phone(args, contacts):
 @input_error
 def show_phone(args, contacts):
     name = args[0]
-    if name in contacts:
-        return f"{name}'s phone: {contacts[name]}"
+    return f"{name}'s phone: {contacts[name]}"
 
 
 def show_all(contacts):
